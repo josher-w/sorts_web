@@ -1,0 +1,11 @@
+[package]
+name = "sorts_web"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+yew = { version = "0.20", features = ["csr"] }
+duplicate = { }
+num = "0.4.0"
+rand = { version = "*"}
+getrandom = { version = "0.2", features = ["js"] }
